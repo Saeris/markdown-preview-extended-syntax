@@ -1,0 +1,40 @@
+{
+  "name": "markdown-preview-extended-syntax",
+  "private": true,
+  "version": "0.0.1",
+  "displayName": "Markdown Preview Extended Syntax",
+  "description": "A collection of syntax extensions for VSCode's Markdown Preview",
+  "license": "MIT",
+  "publisher": "saeris",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saeris/markdown-preview-extended-syntax.git"
+  },
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Other",
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "saeris.markdown-abbr",
+    "saeris.markdown-definition-list",
+    "saeris.markdown-del",
+    "saeris.markdown-denden-furigana",
+    "saeris.markdown-github-alerts",
+    "saeris.markdown-inline-svg",
+    "saeris.markdown-ins",
+    "saeris.markdown-keyboard",
+    "saeris.markdown-mark",
+    "saeris.markdown-subscript",
+    "DevHawk.markdown-sup",
+    "Billaferd.vscode-header-sections"
+  ],
+  "scripts": {
+    "release": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "3.6.2"
+  }
+}
