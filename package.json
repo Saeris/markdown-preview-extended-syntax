@@ -1,7 +1,7 @@
 {
   "name": "markdown-preview-extended-syntax",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "Markdown Preview Extended Syntax",
   "description": "A collection of syntax extensions for VSCode's Markdown Preview",
   "license": "MIT",
