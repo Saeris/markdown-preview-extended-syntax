@@ -1,4 +1,4 @@
-# Markdown Preview Extended
+# Markdown Preview Extended Syntax
 
 An extension pack which adds extended Markdown syntax support to VSCode's Markdown Preview. It's intended purpose is to ensure that what is rendered by the preview closely matches the HTML output one would get rendering the same document in a web application so that it can be styled using the same CSS for both.
 
