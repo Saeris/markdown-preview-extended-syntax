@@ -13,17 +13,17 @@ Each extension runs the associated [markdown-it][markdown-it] plugin and the equ
 | `++insert++` | [`<ins>`][ins] | [Markdown Insert][vs-ins] | [markdown-it-ins][it-ins] | [remark-ins][re-ins] |
 | `--delete--` | [`<del>`][del] | [Markdown Delete `<del>`][vs-ins] | [@saeris/markdown-it-del][it-del] | [@saeris/remark-del][re-del] |
 | `==mark==` | [`<mark>`][mark] | [Markdown Mark][vs-mark] | [markdown-it-mark][it-mark] | [remark-flexible-markers][re-mark] |
-| `[[ctrl]]` | [`<kbd>`][kbd] | [Markdown Keyboard `<kbd>`][vs-kbd] | [markdown-it-kbd][it-kbd] | [remark-kbd][re-kbd]* |
+| `[[ctrl]]` | [`<kbd>`][kbd] | [Markdown Keyboard `<kbd>`][vs-kbd] | [markdown-it-kbd][it-kbd] | [remark-kbd][re-kbd] ⚠ |
 | `{本\|ほん}` |[`<ruby>`][ruby] | [Markdown DenDen Furigana][vs-ruby] | [markdown-it-ruby][it-ruby] | [remark-denden-ruby][re-ruby] |
 | `31^st^` | [`<sup>`][sup] | [Markdown Superscript][vs-sup] | [@mdit/plugin-sup][it-sup] | [remark-supersub][re-sup] |
 | `H~2~O` | [`<sub>`][sub] | [Markdown Subscript][vs-sub] | [@mdit/plugin-sub][it-sub] | [remark-supersub][re-sub] |
 |` *[term]:` | [`<abbr>`][abbr] | [Markdown Abbreviation][vs-abbr] | [@mdit/plugin-abbr][it-abbr] | [remark-abbr][re-abbr] |
 | `term`</br>`: def` | [`<dl>`][dl] | [Markdown Definition List `<dl>`][vs-dl] | [@mdit/plugin-dl][it-dl] | [remark-definition-list][re-dl] |
 | `> [!NOTE]` | n/a | [Markdown GitHub Alerts][vs-alert] |[markdown-it-github-alerts][it-alert] | [remark-alerts][re-alert] | 
-| `![](./img.svg)` | n/a | [Markdown Inline SVG][vs-svg] | [@saeris/markdown-it-inline-svg][it-svg] | [remark-inline-svg][re-svg] |
+| `![](./img.svg)` | n/a | [Markdown Inline SVG][vs-svg] | [@saeris/markdown-it-inline-svg][it-svg] | [remark-inline-svg][re-svg] ⚠ |
 | n/a  | n/a | [Markdown Header Sections][vs-sec] | [markdown-it-header-sections][it-sec] | [remark-sectionize][re-sec] |
 
-> \* requires additional configuration
+> ⚠ requires additional configuration
 
 ## 🥂 License
 
