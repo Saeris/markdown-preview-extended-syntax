@@ -20,7 +20,7 @@ Each extension runs the associated [markdown-it][markdown-it] plugin and the equ
 |` *[term]:` | [`<abbr>`][abbr] | [Markdown Abbreviation][vs-abbr] | [@mdit/plugin-abbr][it-abbr] | [remark-abbr][re-abbr] |
 | `term`</br>`: def` | [`<dl>`][dl] | [Markdown Definition List `<dl>`][vs-dl] | [@mdit/plugin-dl][it-dl] | [remark-definition-list][re-dl] |
 | `> [!NOTE]` | n/a | [Markdown GitHub Alerts][vs-alert] |[markdown-it-github-alerts][it-alert] | [remark-alerts][re-alert] | 
-| `![](./.../img.svg)` | n/a | [Markdown Inline SVG][vs-svg] | [@saeris/markdown-it-inline-svg][it-svg] | [remark-inline-svg][re-svg] ⚠ |
+| `![](./.../img.svg)` | n/a | [Markdown Inline SVG][vs-svg] | [@saeris/markdown-it-inline-svg][it-svg] | [@saeris/rehype-inline-svg][re-svg] ⚠ |
 | n/a  | n/a | [Markdown Header Sections][vs-sec] | [markdown-it-header-sections][it-sec] | [remark-sectionize][re-sec] |
 
 > ⚠ requires additional configuration
@@ -88,5 +88,5 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 [re-kbd]: https://www.npmjs.com/package/remark-kbd
 [re-dl]: https://www.npmjs.com/package/remark-definition-list
 [re-ruby]: https://www.npmjs.com/package/remark-denden-ruby
-[re-svg]: https://www.npmjs.com/package/remark-inline-svg
+[re-svg]: https://www.npmjs.com/package/@saeris/rehype-inline-svg
 [re-sec]: https://www.npmjs.com/package/remark-sectionize
