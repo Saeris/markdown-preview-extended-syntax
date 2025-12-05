@@ -22,6 +22,7 @@ Each extension runs the associated [markdown-it][markdown-it] plugin and the equ
 | `> [!NOTE]` | n/a | [Markdown GitHub Alerts][vs-alert] |[markdown-it-github-alerts][it-alert] | [remark-alerts][re-alert] | 
 | `![](./.../img.svg)` | n/a | [Markdown Inline SVG][vs-svg] | [@saeris/markdown-it-inline-svg][it-svg] | [@saeris/rehype-inline-svg][re-svg] |
 | n/a  | n/a | [Markdown Header Sections][vs-sec] | [markdown-it-header-sections][it-sec] | [remark-sectionize][re-sec] |
+| n/a  | n/a | [Markdown Attributes][vs-attrs] | [@mdit/plugin-attrs][it-attrs] | [remark-attributes][re-attrs] ⚠ |
 
 > ⚠ requires additional configuration
 
@@ -52,6 +53,7 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 <!-- vscode extensions -->
 [vs-alert]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-github-alerts
 [vs-abbr]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-abbr
+[vs-attrs]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-attributes
 [vs-ins]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-ins
 [vs-del]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-del
 [vs-sup]: https://marketplace.visualstudio.com/items?itemName=DevHawk.markdown-sup
@@ -66,6 +68,7 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 <!-- markdown-it plugins -->
 [it-alert]: https://www.npmjs.com/package/markdown-it-github-alerts
 [it-abbr]: https://www.npmjs.com/package/@mdit/plugin-abbr
+[it-attrs]:https://www.npmjs.com/package/@mdit/plugin-attrs
 [it-ins]: https://www.npmjs.com/package/markdown-it-ins
 [it-del]: https://www.npmjs.com/package/@saeris/markdown-it-del
 [it-sup]: https://www.npmjs.com/package/@mdit/plugin-sup
@@ -80,6 +83,7 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 <!-- remark plugins -->
 [re-alert]: https://www.npmjs.com/package/remark-alerts
 [re-abbr]: https://www.npmjs.com/package/remark-abbr
+[re-attrs]:https://www.npmjs.com/package/remark-attributes
 [re-ins]: https://www.npmjs.com/package/remark-ins
 [re-del]: https://www.npmjs.com/package/@saeris/remark-del
 [re-sup]:https://www.npmjs.com/package/remark-supersub

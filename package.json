@@ -19,6 +19,7 @@
   ],
   "extensionPack": [
     "saeris.markdown-abbr",
+    "saeris.markdown-attributes",
     "saeris.markdown-definition-list",
     "saeris.markdown-del",
     "saeris.markdown-denden-furigana",
