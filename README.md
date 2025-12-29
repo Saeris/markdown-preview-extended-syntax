@@ -23,6 +23,7 @@ Each extension runs the associated [markdown-it][markdown-it] plugin and the equ
 | `![](./.../img.svg)` | n/a | [Markdown Inline SVG][vs-svg] | [@saeris/markdown-it-inline-svg][it-svg] | [@saeris/rehype-inline-svg][re-svg] |
 | n/a  | n/a | [Markdown Header Sections][vs-sec] | [markdown-it-header-sections][it-sec] | [remark-sectionize][re-sec] |
 | n/a  | n/a | [Markdown Attributes][vs-attrs] | [@mdit/plugin-attrs][it-attrs] | [remark-attributes][re-attrs] ⚠ |
+| n/a  | n/a | [Markdown Unwrap Images][vs-unwrap] | [markdown-it-block-image][it-unwrap] | [rehype-unwrap-images][re-unwrap] |
 
 > ⚠ requires additional configuration
 
@@ -64,6 +65,7 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 [vs-ruby]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-denden-furigana
 [vs-svg]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-inline-svg
 [vs-sec]: https://marketplace.visualstudio.com/items?itemName=Billaferd.vscode-header-sections
+[vs-unwrap]: https://marketplace.visualstudio.com/items?itemName=saeris.markdown-unwrap-images
 
 <!-- markdown-it plugins -->
 [it-alert]: https://www.npmjs.com/package/markdown-it-github-alerts
@@ -79,6 +81,7 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 [it-ruby]: https://www.npmjs.com/package/markdown-it-ruby
 [it-svg]: https://www.npmjs.com/package/@saeris/markdown-it-inline-svg
 [it-sec]: https://www.npmjs.com/package/markdown-it-header-sections
+[it-unwrap]: https://www.npmjs.com/package/markdown-it-block-image
 
 <!-- remark plugins -->
 [re-alert]: https://www.npmjs.com/package/remark-alerts
@@ -94,3 +97,4 @@ Released under the [MIT license][license] © [Drake Costa][personal-website]
 [re-ruby]: https://www.npmjs.com/package/remark-denden-ruby
 [re-svg]: https://www.npmjs.com/package/@saeris/rehype-inline-svg
 [re-sec]: https://www.npmjs.com/package/remark-sectionize
+[re-unwrap]: https://www.npmjs.com/package/rehype-unwrap-images

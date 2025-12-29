@@ -1,7 +1,7 @@
 {
   "name": "markdown-preview-extended-syntax",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "displayName": "Markdown Preview Extended Syntax",
   "description": "A collection of syntax extensions for VSCode's Markdown Preview",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "saeris.markdown-keyboard",
     "saeris.markdown-mark",
     "saeris.markdown-subscript",
+    "saeris.markdown-unwrap-images",
     "DevHawk.markdown-sup",
     "Billaferd.vscode-header-sections"
   ],
